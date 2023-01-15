@@ -6,6 +6,23 @@
 ### ALL EMPLOYEES
 {{url}}/employees
 
+### ADD EMPLOYEE
+POST {{url}}/employee
+content-type: application/json
  
+{
+    "lastName": "Abdulrazak",
+    "firstName": "Abdul",
+    "title": "Sales Representative",
+    "notes": "Abdulrazak is a test employee that we are adding."
+}
+### DELETE Employee
+DELETE {{url}}/employee/63c47c74a8a96f262e96efeb
 
- 
+### EDIT EMPLOYEE 
+PATCH {{url}}/employee/63c47d9a2134ee97b257cab3
+content-type: application/json
+
+{
+"lastName": "CHANGED-LAST-NAME", "firstName": "CHANGED-FIRST-NAME", "title": "Sales Representative", "notes": "Author is a test employee that we are adding."
+}
