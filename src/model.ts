@@ -122,14 +122,14 @@ export const getApiInstructions = () => {
 		background-color: #333;
     color: orange
 	}
-  ul li:first-child code {
+  a {
     color: yellow;
-    text-decoration: underline
+   
   }
 </style>
 <h1>Employee Site API</h1>
 <ul>
-	<li>GET <code>/employees</code> - get all employees</li>
+	<li>GET <a href="http://localhost:3615/employees">/employees</a> - get all employees</li>
   <li>POST <code>/employee</code> - add an employee</li>
   <li>PATCH <code>/employee/63c413bece003d083deefd0f</code> - edit employee with id 63c413bece003d083deefd0f</li>
   <li>DELETE <code>/employee/63c413bece003d083deefd0f</code> - delete employee with id 63c413bece003d083deefd0f</li>

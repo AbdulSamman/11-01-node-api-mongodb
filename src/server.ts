@@ -9,6 +9,7 @@ const app = express();
 app.use(cors());
 app.use(logger);
 app.use(express.json());
+
 app.get("/", (req: express.Request, res: express.Response) => {
   res.send(model.getApiInstructions());
 });
@@ -58,6 +59,10 @@ app.patch(
     }
   }
 );
+
+app.get("*", (req: express.Request, res: express.Response) => {
+  res.send(model.getApiInstructions());
+});
 
 app.listen(config.port, () => {
   console.log(`listening on port http://localhost:${config.port}`);
