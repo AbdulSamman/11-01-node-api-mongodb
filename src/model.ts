@@ -1,7 +1,6 @@
 import * as config from "./config.js";
 import { MongoClient, ObjectId } from "mongodb";
 import { IEmployee } from "./interfaces.js";
-import { resolve } from "path";
 
 const client = new MongoClient(config.mongoDbConnection);
 
