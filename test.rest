@@ -17,12 +17,12 @@ content-type: application/json
     "notes": "Abdulrazak is a test employee that we are adding."
 }
 ### DELETE Employee
-DELETE {{url}}/employee/63c47c74a8a96f262e96efeb
+DELETE {{url}}/employee/63f23a79d548dbfecea2680e
 
 ### EDIT EMPLOYEE 
-PATCH {{url}}/employee/63c47d9a2134ee97b257cab3
+PATCH {{url}}/employee/63f2370dcd59b592a6201373
 content-type: application/json
 
 {
-"lastName": "CHANGED-LAST-NAME", "firstName": "CHANGED-FIRST-NAME", "title": "Sales Representative", "notes": "Author is a test employee that we are adding."
+"lastName": "CHANGED-LAST-NAME1", "firstName": "CHANGED-FIRST-NAME1", "title": "Sales Representative", "notes": "Author is a test employee that we are adding."
 }
