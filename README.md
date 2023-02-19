@@ -4,3 +4,4 @@ If you need to set up a quick Node/Express API, this is a good project to begin 
 k to view website
 
 - `npm run dev`
+![node-api-mongodb](https://user-images.githubusercontent.com/97021586/219956761-6bdb8b2a-f717-4572-a825-6c9fc467a546.gif)
